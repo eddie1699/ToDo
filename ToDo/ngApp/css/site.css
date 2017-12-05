@@ -1,0 +1,67 @@
+html{
+    height: 100%;
+  }
+   
+  body{
+    background-color: red;
+    background-position: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+  }
+  
+  .wrapper{
+    background-color: white;
+    position: absolute;
+    left: 0;
+    right: 30%;
+    top: 50px;
+    padding: 20px;
+    margin: auto;
+    width: 420px;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+  }
+   
+  .wrapper2{
+    padding-top: 10px;
+    padding-left: 50px;
+  }
+   
+  .form-control{
+    width: 100%;
+    font-size: 14px;
+  }
+   
+
+  h2{
+   
+    text-align: center;
+    color: red;  
+  }
+   
+  
+  .fa.fa-thumb-tack.fa-2x{
+    color : red;
+  }
+   
+  .btn.btn-primary.btn-sm{
+    margin-top: 5px;
+    width: 100%;
+    background-color: transparent;
+    color: red;  
+    font-size: 14px;
+   } 
+   
+  .btn.btn-warning.btn-xs{
+    background-color: red;
+    border-color:red;
+  }
+   
+  .done-true{
+    text-decoration: line-through;
+    color: grey;
+  }
+   
+  .unstyled , .ng-binding, .check{
+      color: red; 
+  }
